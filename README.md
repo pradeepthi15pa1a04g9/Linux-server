@@ -66,9 +66,9 @@ Login as ubuntu
 		
 5. Creating grader User:					
 
-		ubuntu@ip-172-26-0-113:~$ sudo apt-get update
+		sudo apt-get update
 	
-		ubuntu@ip-172-26-0-113:~$ sudo apt-get upgrade
+	        sudo apt-get upgrade
 	
 		sudo adduser grader
 	
