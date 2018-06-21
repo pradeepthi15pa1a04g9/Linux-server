@@ -125,11 +125,15 @@ This will generate public and private ssh keys which is saved to .ssh folder
 
 12. Changing SSH port to 2200
  
--- use command to edit sshd config file. grader@ip-172-26-0-113:~$ sudo nano /etc/ssh/sshd_config
+-- use command to edit sshd config file.
+
+	sudo nano /etc/ssh/sshd_config
  
 -- Now in this,change port from 22 to 2200.demo
 
--- restart server ssh using command, grader@ip-172-26-0-113:~$ sudo service ssh restart
+-- restart server ssh using command
+
+	sudo service ssh restart
 
 -- Before Logging using ssh add custom TCP port 2200 and add custom UDP port 123 under lightsail firewall in 
    networking tab in lightsail instance console.demo
