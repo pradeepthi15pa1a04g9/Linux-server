@@ -119,6 +119,7 @@ This will generate public and private ssh keys which is saved to .ssh folder
 11. Now from your log in to grader with private key generated
 
     		ssh -i .ssh/id_rsa grader@ipaddress 
+		
 
 12. Changing SSH port to 2200
  
@@ -132,6 +133,12 @@ This will generate public and private ssh keys which is saved to .ssh folder
    networking tab in lightsail instance console.demo
    
     ssh -i .ssh/id_rsa -p 2200 grader@ipaddress
+    
+Note:Important thing is disabaling ssh login as root
+		
+	sudo nano /etc/ssh/sshd_config
+
+make change PermitRootlogin no
     
 13. Update 
 
@@ -198,6 +205,7 @@ This will generate public and private ssh keys which is saved to .ssh folder
 Open the given below source 
 
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+https://github.com/vyshnavimuthumula/Linux-server
 
 Use this line to Replace database connection in init.py and database_setup.py
 
