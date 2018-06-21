@@ -63,10 +63,14 @@ Login as ubuntu
 4. Connect to grader by using the following command:	
 
 	ssh -i path/to/privatekey -p 2200 grader@ip address				
-	
+		
 5. Creating grader User:					
 
-	ubuntu@ip-172-26-0-113:~$ sudo adduser grader
+	ubuntu@ip-172-26-0-113:~$ sudo apt-get update
+	
+	ubuntu@ip-172-26-0-113:~$ sudo apt-get upgrade
+	
+	sudo adduser grader
 	
  Follow the following steps:			
 
