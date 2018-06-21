@@ -62,15 +62,15 @@ Login as ubuntu
 
 4. Connect to grader by using the following command:	
 
-	ssh -i path/to/privatekey -p 2200 grader@ip address				
+		ssh -i path/to/privatekey -p 2200 grader@ip address				
 		
 5. Creating grader User:					
 
-	ubuntu@ip-172-26-0-113:~$ sudo apt-get update
+		ubuntu@ip-172-26-0-113:~$ sudo apt-get update
 	
-	ubuntu@ip-172-26-0-113:~$ sudo apt-get upgrade
+		ubuntu@ip-172-26-0-113:~$ sudo apt-get upgrade
 	
-	sudo adduser grader
+		sudo adduser grader
 	
  Follow the following steps:			
 
@@ -134,7 +134,7 @@ This will generate public and private ssh keys which is saved to .ssh folder
 -- Before Logging using ssh add custom TCP port 2200 and add custom UDP port 123 under lightsail firewall in 
    networking tab in lightsail instance console.demo
    
-    ssh -i .ssh/id_rsa -p 2200 grader@ipaddress
+    	ssh -i .ssh/id_rsa -p 2200 grader@ipaddress
     
 Note:Important thing is disabaling ssh login as root
 		
