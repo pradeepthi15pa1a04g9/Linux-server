@@ -7,10 +7,10 @@ This is the sixth project for the Udacity Full Stack Nanodegree. This project in
 
 # Server Info
 
-- **Public IP:** 34.210.194.203
+- **IP Address:** 13.232.98.88
 - **Port:** 2200
 
-- http://34.210.194.203/
+- http://13.232.98.88.xip.io/
 #### Step-1
 
 ##### Software Requirements:
@@ -155,7 +155,7 @@ This will generate public and private ssh keys which is saved to .ssh folder
 	    
   ##### Installation Process
   
-            sudo apt-get install apache2		
+             sudo apt-get install apache2		
 
              sudo apt-get install python-setuptools libapache2-mod-wsgi
 
@@ -229,7 +229,7 @@ DATABASE CREATED
 
 Move to database catalog
 
-\c catalog  
+    \c catalog  
 
     REVOKE ALL ON SCHEMA public FROM public;
     
@@ -237,7 +237,7 @@ REVOKE
 
     GRANT ALL ON SCHEMA public TO catalog;
     
-\q and type exit
+    \q and type exit
 
 Change the database connection in both database_setup.py and init.py as
 
@@ -279,10 +279,37 @@ Then go to webbrowser and type your ipaddress finaly we get our project.
 
 **** My server Details
 
-   Server static IP Address 13.232.39.180
+   Server static IP Address 13.232.98.88
 **** Grader Key
 
------BEGIN RSA PRIVATE KEY----- MIIEogIBAAKCAQEAsjQ6MwF5H7/yGlQY+EVcK+atb3/oG7a+MavG2N2EvdOM3iSX 6GjmckT1QljOxpRlLZGJ5H8aRgYitXR0xYdsHJa/AYfGp4i/k6+/U7bkvxSAXIE9 DQrTrE3FyKFcrNkwFs3aeOYwslMYAbdw97cTLwsQdjl+J+J+zVUh/KQsBHtsNwrU 7vplozXR0LNDXv6sddu7fGv5w1oJ6hEMTiI3qZd1KBZI9sjP4PZ7UkQ539etZ6Vg 4cN3WssUlOrUNYM7MIgSXmFMVJiPL8KxY4SzS+ZF/R9ZFDezKbREPi71R1/jKivL YM5QhNatCCahKqN+4I02esTbO52jEvs1mfGsKwIDAQABAoIBAAe6UBPKKpB/6GXP 481QZLDarga5yzz4bcMFqffZk1oQBHnVqGjBs8ycxO39n+nooYKaXxpzkJYcygCI bk/qkXuj5eCRHMJDIdursWZV9hF7OB3K1PTt1UQRk1Qh+zzbpkQ25RR9FvuEsvPQ GqwDWmed2TbnQ1tDbTBGUtT74ZTIGty35lPubvAE13dbBI2aVWGKjJtfRxDhpBQf zyZzl4iKx39MHTRoJVhnJ5eNVJv1BYMB+7FDg+zIgDAOj7u5eQtWnxDkWZH7FA+O FUhqTtXOl5Juw2eK6S/WG/lYlpOyVJibenvyCsqOHs1LIYS0kxMM2z6ZgEEtbe58 xgVNPqECgYEA3sJU3xSdKb47IE/b0fJzDhYjmk7gSyLk/bqyE//5bK79A6MXA9yz JjJwDgMI+odb9FrHCR2UIGzsyIXqTx9B0bF2e2sqaPUbra7a/+7O6I33i9vipjZU hzAWU1kV9zVzmC1U0+lFtviynMypz65XFVv5n8EeZ934C6dFjuyegZMCgYEAzMvW S0L3MCTGInFN/j/JgNb873ZWrVnz+GOgQFgAQmjUcyJOrEifgOrU+ZYhHEeU/gwD ZEPOTyfXAOJBkxz+JSUFe5xAkyygL/51woaVEkDGyeQiaSfnEckJ3u2xxUurxWiQ ycJuOxetwnVSxOOy8Kr0qmk75vbOkR9wyUKPKgkCgYAluM7agAklOnuUuzFEWkQ1 jHY2+UhuMNiKRwVE8cHxL6jU5tdM5iDIRR5IoSbyFd3ygTTXTFT7MLbgNh05jNd+ hQjFWZ5y657mSIf5cx1CsFfNLU0yTF0AD5qYPqvDkx+iE3sb75LIq1DD0Lyo2KMS kOKytOdLO4F3p7nVvCgTVQKBgCMGGTf10+Bf6aKqTfRVZFisa8VoL5ql75tjLlzS r/irhOnLzDiakuyxPIsSqcb0Vv67fzj+f6H55kM4bo6CPtSLaEyjhEenMh4DHpCO A6CDg3uzkE77jAD2qMF/VQ+wyUeRgnF+1us0OXswJV+WsVuHYSBjruLpApq/DcLd py5BAoGAYqPrT05A522n3cuFgVCJKKeOBVv3WZQ0pscOic5fvN551IOiQ3S3TsGv ex4pTcxTvHRquF0RspeL4s9v//1DQibDvrmvVpU9iYEJ9PV9Lv5+XRNK0Kzlv6uk HE0hv/m0hKjUubCb8sCFe1vIum34I3dtWQB0YChQjp8F7rFP5oA= -----END RSA PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA/ahYmdAHYA1zJiv4iJfArM4H4og/OC9EIoJdrsmaW7cZUUMT
+Lq+GjFV3SJ7iQLrMK5Tg9SglQKRtMiZnQCsQr5aUqrPPvczWlTL9QSINAk1W7yt0
+qPUZAV0atH8GcDynCfZ6PRUzONS+OqJVJddL8/Qqb7ypdsMGW6EUwo1YuuPHjdiZ
+DV5fIOxwyyLIA3GUqPUp7KrL+HvLBbgVkzxKRKcdFPwmEq7emwSLzdqVjn7y65Jj
+xLPkx/XVo/3DG92ym96mrcJANVoQ2ruFXAhp7lU0oU2tmDBGkl+WDcH7y+nwztAG
+AiXqkALVrW+ZC67lpf3+O8Eo/OyrxvVY3uiwdQIDAQABAoIBAH2ZlT2cT3qVTlYx
+YaApHEO0xRy7gCpO5Tr9OGwq8V7GnCerwdzVFxd33le8LKYGmMBfuMBLv55xjIxP
+jcKtUFbRhg28eXou6nX4SISu2qgwKYLGDr72lgoh0u5bE5IRxlhdjouear2SQhuA
+dA8Hu1kxpq2rSnI/AW/vo/rtyGjJEpLhJeV2bFKLGqV19BE923CxuoS9Lh9T5DJZ
+d2dOxLgbaw03Hr/j1GzFuRS82dpbgSRrrsRw4YKqtnaA6Qdx6jE8010FPXB9S4J3
+Z3apAzxrL10THWFOs1bxwZVZoEJNlTNFm61sPigGNKrMUJiE/pgOp5MMKliaAaHP
+XO6b0eECgYEA/85MjpIcnDJkVcubIl8xy9DkryX+xumoW/3xX8Xhc+UHiY0kUkPc
+JBAdaL/sgpxndku3P9Z+B9OmvJwXSGhKp+pQP8mZLNjU2VlW/8hAtJQSn1jMFgPt
+1wrfC/fI/MoM7bJSIItaEnLGFP/0cooq5+MLBJ7xtKDrJSPpv3QgBf0CgYEA/dmh
+MVA0gIYitYELMmBl5d7Y8M4K4ECo0nOENZpQFbCuCwqNMQmxXUi8+vGsOrIeVpfR
+leQxwuSr7KmWKLfTr4NwJsWsXZbkTwITYsd4xhLOyO/pOVH6HyUivLkqvPp7C3uD
+m7YUu3fCNc+PllTKCwWvweFhy/+DwrQsBjxWIdkCgYBMJ+fk3h0EZ4A1hqtF3V9e
+1W7vsfka0P9de8m7gJbxQPMwgUOZ9jf4yI9o2xKXg+bNchc5OytEOz+9kR7hYKMx
+QHHpu6QNlPQxTQa4ma6h1B+DLxV7TGonhkYHMxq0H5cfwOHwbGxBZ8gPAnCNFRNW
+++IQ2x0McIfxA7MYW4MZJQKBgQDswr+SI/Fj8jeLPBl6WeiQNoH2TuZb9FLBPpaP
+/CY3pLsfdy7rDtRLYh1InIF7mUeskhsbh2NWGDu2FxIDVjjs2VWQBAxYmfTFL/Vu
+ywb9DuupBAJtwOTdiaBVjwqqiaCbvA6q+29ozjDoSXftyZVMJHiiBxlU0DNPNQZe
+poXbOQKBgCUp1wedPih9pQZWtoR3G6DParesurn/a+Q++AQGo6ht6VLafpn7aKR5
+xYj30ekP+i2RzoXk509A4SBdBAzRsgWyzwzdU+9w/soYK+6PBl+O0jpdyi/UygoD
+8cBVsZEXnsuzk53VrjhG1ZIdRIJiM2XNwJ4E/6SYWPIrt6IYh8UB
+-----END RSA PRIVATE KEY-----
+
 
 Grader Password
 
@@ -290,7 +317,7 @@ Grader Password
    
 ###### Deploy the Item Catalog project.
 
-    http://
+    http://13.232.98.88
     
 ## Resources
 
